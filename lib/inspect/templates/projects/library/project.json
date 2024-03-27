@@ -1,0 +1,14 @@
+{
+  "name": "library-project",
+  "version": "0.0.1",
+  "languages": {
+    "default": "en",
+    "supported": [
+      "en",
+      "es"
+    ]
+  },
+  "modules": {
+    "path": "./modules"
+  }
+}

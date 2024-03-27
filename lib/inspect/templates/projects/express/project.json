@@ -1,0 +1,39 @@
+{
+  "name": "express-project",
+  "version": "0.0.1",
+  "title": "Express Basic Project",
+  "description": "Express Basic project",
+  "languages": {
+    "default": "en",
+    "supported": [
+      "en",
+      "es"
+    ]
+  },
+  "modules": {
+    "path": "modules"
+  },
+  "deployment": {
+    "distributions": [
+      {
+        "name": "web",
+        "platform": "web",
+        "environment": "development",
+        "backend": "backend",
+        "ports": {
+          "bundles": 6570
+        }
+      },
+      {
+        "name": "backend",
+        "platform": "backend",
+        "environment": "development",
+        "ports": {
+          "bundles": 6571,
+          "http": 6572,
+          "inspect": 6573
+        }
+      }
+    ]
+  }
+}
